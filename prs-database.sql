@@ -1,12 +1,12 @@
 --This script is the database for the PRS
-USE Master;
-GO
-DROP DATABASE IF exists PRS;
-GO
+use master;
+go
+drop database if exists PRS;
+go
 CREATE DATABASE PRS;
-GO
-USE PRS;
-GO
+go
+use PRS;
+go
 -- TABLES
 CREATE TABLE Users(
 	Id int not null primary key identity (1,1),
